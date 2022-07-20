@@ -1,0 +1,140 @@
+.content-2{
+    width: 25%;
+    background-color: aqua;
+}
+
+.content{
+    grid-template-columns: 20% 80%;
+    display: grid;
+}
+
+.sidebar{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.fix-sidebar{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    position: -webkit-sticky; 
+    position: sticky
+}
+
+.bag-1{
+    background-color:#0D28A6;
+    height: 100vh;
+    /* position: fixed; */
+}
+
+.menu-list{
+    background-color: #ffffff;
+    /* color: white; */
+    color:#8A8A8A;
+    font-weight: bold;
+    padding-left: 20px;
+    text-align: left;
+    text-decoration: none;
+    border: none;
+    height: 50px;
+}
+
+.menu-list:nth-child(2){
+    background-color: #CFD4ED;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-left: 20px;
+    text-align: left;
+    text-decoration: none;
+    border: none;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: inherit; 
+}
+
+.nav-side{
+    height: 11vh 
+}
+
+nav {
+    padding-left: 5%;
+    padding-right: 5%; 
+    z-index: 1;
+    position: sticky !important;
+    top: 0 !important;
+    height: 11vh !important;
+    box-sizing: border-box !important;
+}
+
+form p{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 0% !important;
+    padding-top: 5px;
+}
+
+i{
+    padding-top: 10px !important;
+}
+
+.button-name{
+    height: 50px !important;
+}
+
+.main-page {
+    margin: 3%;
+}
+
+.add-new{
+    color: #fff;
+    padding: 10px;
+    background-color: #0D28A6;
+    text-decoration: none;
+}
+
+.add-new:hover{
+    color:  #0D28A6;
+    padding: 10px;
+    background-color: #fff ;
+    border-style:solid;
+    text-decoration: none;
+}
+
+.button-item .add-new:hover{
+    color: #fff;
+    padding: 10px;
+    background-color: #0D28A6;
+    text-decoration: none;
+}
+
+.button-item .add-new{
+    color:  #0D28A6;
+    padding: 10px;
+    background-color: #fff ;
+    border-style:solid;
+    text-decoration: none;
+}
+
+main .white-box{
+    background-color: #ffffff;
+    width: 950px;
+    padding: 10px;
+}
+
+.button-item{
+   /* align-items: flex-end; */
+   margin-top: 100px;
+}
+
+.search-btn{
+  text-decoration: none;
+  color: black;
+}
+
+.search-btn:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
